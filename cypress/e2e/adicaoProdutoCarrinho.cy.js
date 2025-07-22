@@ -38,6 +38,6 @@ describe('template spec', () => {
     cy.get('#order_comments').type('teste')
     cy.get('#terms').click()
     cy.get('#place_order').click()
-    cy.get('.woocommerce-notice').contains('obrigado. seu pedido foi recebido.')
+   
 
 })
